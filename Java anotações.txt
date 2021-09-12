@@ -1,0 +1,33 @@
+Java Spring
+
+Postgress
+usuario: superuser(postgres)
+Senha: 62381011
+Porta: 5432
+
+
+
+
+JUNIT - testes
+
+
+
+//Intalar
+LOMBOK - na IDE
+
+//// help //
+--add-opens java.base/java.lang=ALL-UNNAMED
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.show-sql=false
+spring.jpa.hibernate.ddl-auto=create
+
+////
+
+GIT
+echo "# JavaSpringBoot" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/fabiohsanches/JavaSpringBoot.git
+git push -u origin main
