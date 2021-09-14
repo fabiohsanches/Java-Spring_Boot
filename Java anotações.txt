@@ -5,16 +5,12 @@ usuario: superuser(postgres)
 Senha: 62381011
 Porta: 5432
 
+* Postgress
+* Testes com - JUNIT5
+* Testes API Insominia
 
-
-
-/// Testes com - JUNIT5
-//Intalar
+/Intalar
 LOMBOK - na IDE
 
-//// help //
---add-opens java.base/java.lang=ALL-UNNAMED
-spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
-spring.jpa.show-sql=false
-spring.jpa.hibernate.ddl-auto=create
+
 
