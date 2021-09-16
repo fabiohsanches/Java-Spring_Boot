@@ -1,16 +1,17 @@
 Java Spring
 
-Postgress
+* Postgress
 usuario: superuser(postgres)
 Senha: 62381011
 Porta: 5432
-
-* Postgress
 * Testes com - JUNIT5
 * Testes API Insominia
 
 /Intalar
 LOMBOK - na IDE
 
-
-
+Microserviços(web services) - Apache Kafka
+-> o ideal é cada um ter o seu banco de dados, senao será monolito 
+-> mensageria, Http, Json, Apache THRIFT,GRPC(talvez formato final).
+->Circuit breaker é um Design Pattern
+	
