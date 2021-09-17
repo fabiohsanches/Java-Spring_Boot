@@ -14,4 +14,45 @@ Microserviços(web services) - Apache Kafka
 -> o ideal é cada um ter o seu banco de dados, senao será monolito 
 -> mensageria, Http, Json, Apache THRIFT,GRPC(talvez formato final).
 ->Circuit breaker é um Design Pattern
-	
+
+///
+Materiar estudo
+
+https://medium.com/trainingcenter/design-pattern-para-microservices-circuit-breaker-f4a5b68f73d1
+
+////////
+Rest
+Modelo de arquitetura evolução do Http
+* Principais Methodos(possui mais)
+Get - obeter recurso HTML
+Post - criar um recurso
+Put - atualizar
+Delete - remover
+Trace e connect 
+
+Rest determina boas praticas com tabelas de respostas(estados)
+1xx - Informativo - Continue
+2xx - Sucesso - OK
+3xx - Redirecionamento - Moved Permanently
+4xx - Erro cliente - Bad request
+5xx - Erro de Servidor - Internal Serv error
+
+////////
+
+API
+Possibilita a integração entre sistemas, para acessar suas funcionalidades.
+API Rest -> Utilizando protocolo HTTP(protocolo de comunicação).
+
+EndPoints-> é o que o serviço expoe, ABC
+Adress - Endereço onde serviço esta hospedado
+Buinding - Como o serviço pode ser acessado 
+Contract - O que pode ser visto no serviço
+
+SSL -> Segurança.
+Tokens -> autenticação, com identificadores unicos.
+
+Retornos das APIs
+JSON ou XML - retornam dados das APIS
+
+
+

@@ -1,9 +1,11 @@
 package com.fcranchi.minhasfinancas.service;
 
 import java.util.List;
+import java.util.Optional;
 
 import com.fcranchi.minhasfinancas.model.entity.Lancamento;
 import com.fcranchi.minhasfinancas.model.enums.StatusLancamento;
+
 
 public interface LancamentoService {
 	
@@ -20,5 +22,5 @@ public interface LancamentoService {
 	
 	void validar(Lancamento lancamento);
 	
-
+	Optional<Lancamento> obterPorId(Long id);
 }

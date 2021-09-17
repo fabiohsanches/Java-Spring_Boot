@@ -13,18 +13,16 @@ import com.fcranchi.minhasfinancas.service.UsuarioService;
 import com.fcranchi.minhasfinancas.service.exception.ErroAutenticacao;
 import com.fcranchi.minhasfinancas.service.exception.RegraNegocioException;
 
+import lombok.RequiredArgsConstructor;
 import net.bytebuddy.asm.Advice.Return;
 
 @RestController
 @RequestMapping("/api/usuarios")
+@RequiredArgsConstructor
 public class UsuarioResource {
 
-	private UsuarioService service;
-
-	public UsuarioResource(UsuarioService service) {
-		this.service = service;
-	}
-
+	private final UsuarioService service;
+	
 	@PostMapping("/autenticar")
 	public ResponseEntity autenticar(@RequestBody UsuarioDTO dto) {
 
