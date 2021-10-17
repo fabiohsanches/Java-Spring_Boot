@@ -20,6 +20,13 @@ Materiar estudo
 https://medium.com/trainingcenter/design-pattern-para-microservices-circuit-breaker-f4a5b68f73d1
 
 
+----
+
+* Framework bootStrap, bootSwatch(Tema)
+* React opensource criado pelo facebook
+* Node - engne java script que roda do lado do servidor
+ -> NPM gerenciador de pacotes do node
+ -> yarn gerenciador de pacotes do node um pouco melhor em performace e recursos
 
 
 
